@@ -30,4 +30,21 @@ void function (){
 }();
 
 
+//// 2й вариант решения короче , но тогда перед 1й элемент = 01
 
+// void function (){
+//     const createTable = () => {
+//         const table = document.createElement('table');
+//         for (let i = 1; i <= 10; i++ ) {
+//             const tr = document.createElement('tr');
+//             for (let k = (i - 1) + '1' ; k <= i * 10 ; k++) {
+//                 const td = document.createElement('td');
+//                 td.innerHTML = `${k}`;
+//                 tr.append(td);
+//             }
+//             table.append(tr);
+//         }
+//         document.body.prepend(table);
+//     }
+//     createTable();
+// }();
